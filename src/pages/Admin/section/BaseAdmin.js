@@ -23,7 +23,7 @@ export default function BaseAdmin(props) {
         name: userData.data.data.user.name,
       });
     }
-  }, [localStorage.getItem("KLEDO_USER")]);
+  }, []);
 
   const navigate = useNavigate();
   const dispatch = useDispatch();

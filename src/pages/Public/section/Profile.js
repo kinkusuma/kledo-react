@@ -30,7 +30,7 @@ export default function Profile(props) {
         email: userData.data.data.user.email,
       });
     }
-  }, [localStorage.getItem("KLEDO_USER")]);
+  }, []);
   return (
     <BasePublic>
       <h1 className='font-bold text-xl'>Profile</h1>
