@@ -35,12 +35,12 @@ export default function Profile(props) {
     <BasePublic>
       <h1 className='font-bold text-xl'>Profile</h1>
       <Card
-        style={
+        _style={
           "p-5 gap-2 relative items-start justify-center bg-slate-200 border border-slate-300"
         }
       >
         <UserPic
-          style={"absolute top-5 right-5 w-16 h-16"}
+          _style={"absolute top-5 right-5 w-16 h-16"}
           src={user.profile_image}
         />
         <ProfileItem title='Name' value={user.name} />

@@ -43,7 +43,7 @@ export default function BaseAdmin(props) {
         <TopBar.Items>
           <TopBar.Item>
             <Link to='/profile'>
-              <UserPic style={"w-7 h-7"} src={user.profile_image} />
+              <UserPic _style={"w-7 h-7"} src={user.profile_image} />
             </Link>
           </TopBar.Item>
           <TopBar.Item>
@@ -59,7 +59,7 @@ export default function BaseAdmin(props) {
           <SideBar.Items>
             <div className='self-start'>
               <SideBar.Item
-                style={"border-b border-slate-400 border-opacity-50"}
+                _style={"border-b border-slate-400 border-opacity-50"}
                 hover
               >
                 <Link to='/'>
@@ -70,7 +70,7 @@ export default function BaseAdmin(props) {
                 </Link>
               </SideBar.Item>
               <SideBar.Item
-                style={"border-b border-slate-400 border-opacity-50"}
+                _style={"border-b border-slate-400 border-opacity-50"}
                 hover
               >
                 <Link to='/shipping'>
@@ -81,7 +81,7 @@ export default function BaseAdmin(props) {
                 </Link>
               </SideBar.Item>
             </div>
-            <SideBar.Item style={"self-end bg-blue-600"}>
+            <SideBar.Item _style={"self-end bg-blue-600"}>
               <button
                 className='w-full h-full flex items-center gap-2 text-white'
                 onClick={userLogout}
@@ -93,9 +93,9 @@ export default function BaseAdmin(props) {
           </SideBar.Items>
         </SideBar>
         <Content
-          style={"w-full h-full p-5 bg-slate-300 items-center justify-center"}
+          _style={"w-full h-full p-5 bg-slate-300 items-center justify-center"}
         >
-          <Card style={"p-5 relative bg-slate-100 border border-slate-300"}>
+          <Card _style={"p-5 relative bg-slate-100 border border-slate-300"}>
             {props.children}
           </Card>
         </Content>

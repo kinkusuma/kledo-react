@@ -13,12 +13,12 @@ export default function Dashboard(props) {
         name: userData.data.data.user.name,
       });
     }
-  }, [localStorage.getItem("KLEDO_USER")]);
+  }, []);
   return (
     <BaseAdmin>
       <h2 className='font-bold text-lg'>Dashboard</h2>
       <Card
-        style={
+        _style={
           "items-center justify-center bg-slate-200 border border-slate-300"
         }
       >
