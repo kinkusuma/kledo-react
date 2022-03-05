@@ -14,7 +14,6 @@ export default function Login(props) {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
 

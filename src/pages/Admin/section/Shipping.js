@@ -36,7 +36,6 @@ export default function Dashboard(props) {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
 
