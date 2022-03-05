@@ -44,7 +44,7 @@ export default function Login(props) {
       <h1 className='font-bold text-xl'>Login</h1>
       {loginFailed ? <div className='text-red-500'>{loginFailed}</div> : ""}
       <Card
-        style={
+        _style={
           "p-5 gap-2 relative items-start justify-center bg-slate-200 border border-slate-300"
         }
       >

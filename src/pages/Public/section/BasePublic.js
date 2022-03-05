@@ -25,7 +25,7 @@ export default function BasePublic(props) {
         </TopBar.Items>
       </TopBar>
 
-      <Content style={"items-center justify-center"}>
+      <Content _style={"items-center justify-center"}>
         <div className=' w-96 flex flex-col items-center gap-5'>
           {props.children}
         </div>

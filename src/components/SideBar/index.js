@@ -13,10 +13,10 @@ function Items(props) {
 }
 
 function Item(props) {
-  const { hover, style } = props;
+  const { hover, _style } = props;
   return (
     <button
-      className={`w-full p-3 ${style} ${hover ? "hover:bg-slate-100" : ""}`}
+      className={`w-full p-3 ${_style} ${hover ? "hover:bg-slate-100" : ""}`}
     >
       {props.children}
     </button>
